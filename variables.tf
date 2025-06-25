@@ -1,20 +1,20 @@
 variable "resource_group_name" {
-  description = "learn-3d26ed1b-c306-4bdf-804e-c942bbce389e"
+  description = "Name of the resource group"
   type        = string
 }
 
 variable "location" {
-  description = "West US"
+  description = "Azure region"
   type        = string
 }
 
 variable "admin_username" {
-  description = "bharath"
+  description = "Admin username for the VM"
   type        = string
 }
 
 variable "admin_password" {
-  description = "Bharath@20020722"
+  description = "Admin password for the VM"
   type        = string
   sensitive   = true
 }
